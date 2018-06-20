@@ -38,6 +38,7 @@ header img {
     background-color: #444444;
     border-radius: 10px;
     padding: 10px 25px;
+    box-shadow: 2px 2px 1px #1f2830;
 }
 
 .search input {
@@ -48,9 +49,25 @@ header img {
 }
 
 .search button {
-    padding: 7px 9px;
+    padding: 5px 9px;
     background-color: #245076;
     color: white;
     border: 1.5px solid gray;
-    border-radius: 3px;
+    border-radius: 7px;
+}
+
+.nav-bar {
+    margin: 0px 15px 0px 55px;
+    padding: 10px 0px;
+    background-color: #437cad;
+    color:white;
+    border-radius: 10px;
+    font-family: sans-serif;
+    height: 34px;
+}
+
+.nav-bar li {
+    display: inline;
+    font-size: 24px;
+    margin: 0px 10px;
 }
