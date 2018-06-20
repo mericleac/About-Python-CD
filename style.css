@@ -107,3 +107,70 @@ header img {
 .main h3 {
     font-weight: lighter;
 }
+
+.column {
+    display: inline-block;
+    border-top: 4px solid #73a7d5;
+    text-align: center;
+    width: 450px;
+    vertical-align: top;
+    margin: 20px 10px;
+}
+
+.column h4 {
+    font-weight: lighter;
+    font-size: 20px;
+    margin: 5px;
+}
+
+.column p {
+    margin: 10px 40px;
+    font-size: 14px;
+}
+
+span.special {
+    color: #a8c8e5;
+    font-size: 13px;
+}
+
+.column * {
+    color: black;
+}
+
+.column a {
+    color: #a8c8e5;
+    font-size: 15px;
+}
+
+.column li {
+    margin-left: -20px;
+}
+
+.column ul {
+    margin: 0px 100px;
+    list-style-type: square;
+}
+
+footer {
+    background: linear-gradient(#27567f, #3272a8);
+    -webkit-background: linear-gradient(#27567f, #3272a8);
+    text-align: center;
+    height: 70px;
+    padding: 40px 0px 0px;
+}
+
+footer *{
+    color: #77aad7;
+}
+
+footer h4 {
+    display: inline;
+    margin: 40px;
+    font-weight: lighter;
+    font-size: 18px;
+}
+
+footer p {
+    font-size: 10px;
+    margin-top: 22px;
+}
